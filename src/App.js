@@ -1,16 +1,16 @@
 import './App.css';
+import Header from './Header'
+import Content from './Content'
+import Footer from './Footer'
 
 function App() {
-  const handleNameChange = () => {
-    const names = ['Dan', 'Jenny', 'Lloyd']
-    const int = Math.floor(Math.random() * 3);
-    return names[int];
-  }
+
 
   return (
     <div className="App">
-      <h1>Home Page</h1>
-      <p>Welcome <b>{handleNameChange()}</b>, to your personal Dashboard</p>
+      <Header />
+      <Content />
+      <Footer />
     </div>
   );
 }
