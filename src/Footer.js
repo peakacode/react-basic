@@ -7,6 +7,6 @@ const Footer = () => {
       <p>BR&#x2200;ND Copyright &copy; { today.getFullYear()}</p>
     </footer>
   )
-}
+} 
 
 export default Footer
